@@ -14,6 +14,7 @@ import { HomeComponent } from './component/home/home.component';
 import { SearchComponent } from './component/search/search.component';
 import { ROUTES } from './app.routes';
 import { NoimagePipe } from './pipes/noimage.pipe';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 import { TarjetasComponent } from './component/tarjetas/tarjetas.component';
 import { LoadingComponent } from './component/shared/loading/loading.component';
 
@@ -28,6 +29,7 @@ import { LoadingComponent } from './component/shared/loading/loading.component';
     HomeComponent,
     SearchComponent,
     NoimagePipe,
+    DomseguroPipe,
     TarjetasComponent,
     LoadingComponent
   ],
